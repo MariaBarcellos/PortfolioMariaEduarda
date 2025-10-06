@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <nav class="cabecalho">
+        <ul class="menu">
+            <li>
+                <a href="#sobre" class="link">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="link">Projetos</a>
+            </li>
+            <li>
+                <a href="#habilidades" class="link">Habilidades</a>
+            </li>
+            <li>
+                <a href="#contato" class="link">Meu contato</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- FIM DO CABEÇLHO -->
+
+    <!--SOBRE-->
+    <main id="sobre" class="sobre">
+        <img src="imagens/perfil.jpeg" alt="perfil" class="perfil">
+            <h3>Olá, sejam bem vindos!</h3>
+                <h1>Sou a <span>Maria Eduarda</span></h1>
+                    <div class="caixa-texto">
+                    <p class="texto-sobre">
+                    Uma jovem de 17 anos que está finalizando o terceiro ano
+                        <br> do ensino médio concomitantemente ao curso técnico de
+                        <br> Informática para Internet no Senac-ES.
+                    </p>     
+                    </div>
+    </main>
+    <!-- FIM DO SOBRE -->
+
+    <!-- PROJETOS -->
+        <section id="projetos" class="projetos">
+            <h1 class="projetos-titulo">MEUS <span>PROJETOS</span></h1> 
+            
+            <div class="projetos-caixa"> <!-- CAIXA QUE GAURDA TUDOOO-->   
+                <div class="projetos-card"> <!--caixinha menor ne-->
+                    <a href="https://mariabarcellos.github.io/Portfolio3/" class="link-img">
+                        <img src="imagens/lojatech.jpg" alt="lojatech" class="projeto-imagem">
+                        <h3 class="titulo-projeto">Loja de Informática</h3> 
+                    </a>
+                </div>
+                <div class="projetos-card"> 
+                    <a href="https://mariabarcellos.github.io/Portfolio2/" class="link-img">
+                        <img src="imagens/paris.jpg" alt="paris" class="projeto-imagem">
+                        <h3 class="titulo-projeto">Site de Paris</h3>
+                    </a>
+                </div>
+                <div class="projetos-card"> 
+                    <a href="https://mariabarcellos.github.io/Portfolio/" class="link-img">
+                        <img src="imagens/pizza.webp" alt="pizza" class="projeto-imagem">
+                        <h3 class="titulo-projeto">Pizzaria</h3>
+                    </a>
+                </div>
+                <div class="projetos-card"> 
+                    <a href="https://sites.google.com/view/culturaafro-capixaba/p%C3%A1gina-inicial" class="link-img">
+                        <img src="imagens/Kika-Carvalho.jpg" alt="afro" class="projeto-imagem">
+                        <h3 class="titulo-projeto">Cultura Afro</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- FIM DE PROJETOS -->
+
+        <!-- INÍCIO HABILIDADES -->
+        <section id="habilidades" class="habilidades">
+            <h1 class="titulo-habilidades">MINHAS <span>HABILIDADES</span></h1>
+            <div class="habilidades-caixa">
+                <div class="habilidades-card">
+                    <img src="imagens/icones/html.png" alt="html" class="img-habilidade">
+                    <h3 class="nome-habilidade">Html</h3>
+                </div>
+                <div class="habilidades-card">
+                    <img src="imagens/icones/css.svg" alt="css" class="img-habilidade">
+                    <h3 class="nome-habilidade">Css</h3>
+                </div>
+                <div class="habilidades-card">
+                    <img src="imagens/icones/java.webp" alt="java" class="img-habilidade">
+                    <h3 class="nome-habilidade">Javascript</h3>
+                </div>
+                <div class="habilidades-card">
+                    <img src="imagens/icones/php.png" alt="php" class="img-habilidade">
+                    <h3 class="nome-habilidade">Php</h3>
+                </div>
+                <div class="habilidades-card">
+                    <img src="imagens/icones/canva.webp" alt="canva" class="img-habilidade">
+                    <h3 class="nome-habilidade">Canva</h3>
+                </div>
+                <div class="habilidades-card">
+                    <img src="imagens/icones/bootstrap.png" alt="bootstrap" class="img-habilidade">
+                    <h3 class="nome-habilidade">Bootstrap</h3>
+                </div>
+                <div class="habilidades-card">
+                    <img src="imagens/icones/social.png" alt="jquery" class="img-habilidade">
+                    <h3 class="nome-habilidade">Jquery</h3>
+                </div>
+                <div class="habilidades-card">
+                    <img src="imagens/icones/jquery mobile.png" alt="jquerymobile" class="img-habilidade">
+                    <h3 class="nome-habilidade">Jquery Mobile</h3>
+                </div>
+                <div class="habilidades-card">
+                    <img src="imagens/icones/workbench.png" alt="workbench" class="img-habilidade">
+                    <h3 class="nome-habilidade">Workbench</h3>
+                </div>
+                <div class="habilidades-card">
+                    <img src="imagens/icones/mysql.png" alt="mysql" class="img-habilidade">
+                    <h3 class="nome-habilidade">MySQL</h3>
+                </div>
+            </div>
+        </section>
+        <!-- FIM DE HABILIDADES -->
+
+        <!-- INÍCIO DE MEU CONTATO -->
+        <section id="contato" class="contato">
+            <h1 class="contato-titulo">MEU <span>CONTATO</span></h1>
+            <form action="" class="formulario" id="formulario" onsubmit="enviarWpp(event)">
+                <div class="grupo-formulario">
+                    <input placeholder="Nome" class="campo-form" id="nome">
+                </div>
+                <div class="grupo-formulario">
+                    <textarea placeholder="Digite sua mensagem..." rows="3" class="campo-form" id="msg"></textarea>
+                </div>
+                <div class="botao-animado">
+                    <button type="submit" class="botao-form">Enviar para Whatsapp</button>
+                </div>
+            </form>
+        </section>
+        <!-- FIM DO MEU CONTATO -->
+
+        <!-- FOOTER -->
+        <footer class="caixa-footer">
+            <div class="conteudo-footer">
+                <div class="redes-sociais">
+                    <a href="https://www.instagram.com/__dudabarcellos/" class="link-social">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/5527999768527" class="link-social">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/maria-eduarda-barcellos-274215389/" class="link-social">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="footer-copyright">
+                    &#169 2025 Todos os direitos reservados
+                </div>
+            </div>
+        </footer>
+        
+        <!-- ação do formuário -->
+        <script>
+            function enviarWpp(event){
+                event.preventDefault()  // para que a tela não reinicie
+            
+
+                const nome = document.getElementById('nome').value; // value pq só quero o conteúdo da msg 
+                const msg = document.getElementById('msg').value; 
+            
+                const telefone = '5527999768527'
+
+                const texto = `Olá! Me chamo ${nome}, ${msg}`
+                const msgFormatada = encodeURIComponent(texto)
+
+                const url = `https://wa.me/${telefone}?text=${msgFormatada}`
+
+                window.open(url, '_blank') //  _blank = abrir numa página nova 
+            }
+        </script>
+
+
+
+</body>
+</html>
